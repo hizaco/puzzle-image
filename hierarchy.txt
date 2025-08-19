@@ -1,0 +1,56 @@
+.
+├── LICENSE
+├── README.md
+├── api
+│   ├── app
+│   │   ├── __pycache__
+│   │   │   ├── main.cpython-312.pyc
+│   │   │   └── main.cpython-313.pyc
+│   │   ├── main.py
+│   │   └── services
+│   │       ├── __pycache__
+│   │       │   ├── moderation.cpython-312.pyc
+│   │       │   ├── moderation.cpython-313.pyc
+│   │       │   ├── puzzle.cpython-312.pyc
+│   │       │   └── puzzle.cpython-313.pyc
+│   │       ├── moderation.py
+│   │       └── puzzle.py
+│   ├── payments
+│   │   ├── checkout.ts
+│   │   └── webhook.ts
+│   ├── puzzle_image_api.egg-info
+│   │   ├── PKG-INFO
+│   │   ├── SOURCES.txt
+│   │   ├── dependency_links.txt
+│   │   ├── requires.txt
+│   │   └── top_level.txt
+│   ├── pyproject.toml
+│   └── safe-image.ts
+├── hierarchy.txt
+├── infra
+│   └── docker-compose.yml
+└── mobile-app
+    ├── App.tsx
+    ├── app.json
+    ├── babel.config.js
+    ├── components
+    ├── index.js
+    ├── package-lock.json
+    ├── package.json
+    ├── src
+    │   ├── api.ts
+    │   ├── components
+    │   │   ├── PuzzleBoard.tsx
+    │   │   └── TutorialOverlay.tsx
+    │   ├── game
+    │   │   ├── ai
+    │   │   │   └── opponent.ts
+    │   │   └── controls.ts
+    │   └── services
+    │       ├── auth.ts
+    │       ├── payments.ts
+    │       ├── safeImage.ts
+    │       └── score.ts
+    └── tsconfig.json
+
+16 directories, 38 files
